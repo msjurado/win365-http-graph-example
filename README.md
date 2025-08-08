@@ -1,6 +1,11 @@
 # win365-http-graph-example
 Basic example using http calls to Microsoft graph API for authentication and calling a Windows 365 endpoint.  Example is using registered app in Azure with certificate authentication.
 
+#### Create new conda environment
+```bash
+conda create --name <env> --file requirements.txt python=3.12
+```
+
 #### Create a self signed cert for testing called w365.key and a public cert called w365.pem
 ```bash
 openssl genrsa -des3 -out w365.key 2048
