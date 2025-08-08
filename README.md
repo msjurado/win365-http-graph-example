@@ -1,5 +1,5 @@
 # win365-http-graph-example
-Basic example using http calls to Microsoft graph API for authentication and calling a Windows 365 endpoint.  Example is using registered app in Azure with certification authentication.
+Basic example using http calls to Microsoft graph API for authentication and calling a Windows 365 endpoint.  Example is using registered app in Azure with certificate authentication.
 
 #### Create a self signed cert for testing called w365.key and a public cert called w365.pem
 ```bash
